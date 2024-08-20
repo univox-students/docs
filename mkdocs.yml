@@ -1,4 +1,27 @@
 site_name: WCR Website Documentation
+site_url: https://univox-students.github.io/docs
+
+site_description: This is the documentation of the WCR website, which documents policies in using the website and how to maintain it.
+
+copyright: Copyright &copy; 2024 Weir Common Room, University College, Oxford and Samuel Chun Hei Lam
+  
+extra:
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/groups/1233897143993080
+
+nav:
+  - Home: index.md
+  - Introduction: 
+    - Overview: introduction/overview.md
+    - IT Officer: introduction/it_officer.md
+  - Maintenance: 
+    - maintenance/index.md
+  - Development: 
+    - development/index.md
+  - Editing the documentation: 
+    - editing_the_docs/index.md
+
 theme:
   name: material
   features:
@@ -8,27 +31,3 @@ theme:
     - navigation.path
     - navigation.footer
     - navigation.tracking
-
-repo_url: https://github.com/univox-students/wcr
-repo_name: univox-students/wcr
-  
-extra:
-  social:
-    - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/groups/1233897143993080
-    - icon: fontawesome/brands/mastodon 
-      link: https://univox.social
-
-nav:
-  - Home: index.md
-  - Introduction: 
-    - Overview: introduction/overview.md
-    - IT officer: introduction/it_officer.md
-  - Maintenance: 
-    - maintenance/index.md
-  - Development: 
-    - development/index.md
-  - Editing the documentation: 
-    - editing_the_docs/index.md
-
-copyright: Copyright &copy; 2024 Weir Common Room, University College, Oxford and Samuel Chun Hei Lam
