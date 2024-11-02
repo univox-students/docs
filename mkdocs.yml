@@ -15,12 +15,17 @@ nav:
   - Introduction: 
     - Overview: introduction/overview.md
     - Webmaster Motion: introduction/it_officer.md
-  - Maintenance: 
-    - maintenance/index.md
+  - Managing Contents: 
+    - managing_contents/index.md
   - Development: 
     - development/index.md
+    - development/new_features.md
   - Editing the documentation: 
     - editing_the_docs/index.md
+  - Other Initiatives: 
+    - other_initiatives/index.md
+  - Regulations: 
+    - regulations/index.md
 
 theme:
   name: material
@@ -31,3 +36,10 @@ theme:
     - navigation.path
     - navigation.footer
     - navigation.tracking
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
