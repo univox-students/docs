@@ -2,17 +2,21 @@
 
 ## Quick Links
 
-- Getting access
-- Setting up the local development environment
+- [Basic access](basic_access.md)
+- [Server access](server_access.md)
+- Setting up the local development environment (Docker)
+- Basic editing of pages (React 101)
+- Strapi API
+- [What needs to be done?](new_features.md)
 
 ## How does the website work?
-The website is splitted into a few parts - the  and the . Both of which are hosted in the College server.
+The website is splitted into a few parts - all of which are hosted in the College server, running using Linux Ubuntu 22.0 LTS.
 
 ### 1. Main website
 The [main website](https://wcr.univ.ox.ac.uk) is frontend only, written in the [React.js](https://react.dev) framework, which integrates HTML, CSS and Javascript in the most intuitive way.
 
 ### 2. Content Management System
-The [content management system](https://wcr.univ.ox.ac.uk/strapi) (CMS) is a standalone full-stack website. The codebase is provided by Strapi (v4 community edition).
+The [content management system](https://wcr.univ.ox.ac.uk/strapi) (CMS) is a standalone full-stack website. The codebase is provided by [Strapi](https://strapi.io) (v4 community edition).
 
 ### 3. Database
 The website also contain a [Postgresql](https://www.postgresql.org) database.
@@ -27,9 +31,11 @@ The certificate for Secure Sockets Layer (SSL) connection (i.e. the `https://` c
 
     The certbot implementation is buggy, and we are looking for permanent solution. For now, you will have to manually update the certificate.
 
-### Docker
-Everything listed above could be built using [the Docker engine](https://www.docker.com). Therefore, the only thing you have to install for development is the Docker engine. Once this is installed, you can run suitable commands to install the remaining website parts for local development/production.
+### 6. Media Management
+The images of the website are served by [Cloudinary](https://cloudinary.com), an external media management service. This is to optimise the speed of building the website.
 
+### Docker
+With the exception of media management, everything listed above could be built using [the Docker engine](https://www.docker.com). Therefore, the only thing you have to install for development is the Docker engine. Once this is installed, you can run suitable commands to install the remaining website parts for local development/production.
 
 !!! warning
 

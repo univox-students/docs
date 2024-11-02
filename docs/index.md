@@ -3,10 +3,10 @@
 ## About
 The Weir Common Room (WCR) is the Middle Common Room of the University College, Oxford, representing all the graduate students in the University College (Univ). The WCR is also the physical space in the College where graduate students can relax and socialise.
 
-[The website](https://wcr.univ.ox.ac.uk), together with [other initatives](introduction/overview.md), are part of the WCR effort to build a more closely-knit postgraduate community in Univ, to connect postgraduates with other parts of the college, and to improve the public appearance of the WCR.
+[The website](https://wcr.univ.ox.ac.uk), together with [other initatives](introduction/index.md), are part of the WCR effort to build a more closely-knit postgraduate community in Univ, to connect postgraduates with other parts of the college, and to improve the public appearance of the WCR.
 
 ## Quick Links
-- [Learn more about our project](introduction/overview.md).
+- [Learn more about our project](introduction/index.md).
 - [Edit the contents of the website](managing_contents/index.md).
 - [Developing the website](development/index.md) (including technical handover).
 - Website troubleshooting.
