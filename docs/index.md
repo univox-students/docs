@@ -1,5 +1,9 @@
 # WCR Website
 
+!!! warning
+
+    We have enacted a new Committee role of the **Website and Communication Officer** for the management of the WCR online presence. You can learn more by visiting the [dedicated page](/docs/introduction/officer), or emailing us at [wcr.externalaffairs@univ.ox.ac.uk](mailto:wcr.externalaffairs@univ.ox.ac.uk).
+
 ## About
 The Weir Common Room (WCR) is the Middle Common Room of the University College, Oxford, representing all the graduate students in the University College (Univ). The WCR is also the physical space in the College where graduate students can relax and socialise.
 
@@ -12,10 +16,6 @@ The Weir Common Room (WCR) is the Middle Common Room of the University College, 
 - Website troubleshooting.
 - Tracking/proposing constitutional change.
 - Requesting/managing society webspaces.
-
-!!! warning
-
-    We are working hard to complete the documentation. Besides, the website will receive a major update during the Christmas vacation due to the [update of content management system](https://strapi.io/five). Anyone who wish to develop the website should [consult Samuel Lam](https://wcr.univ.ox.ac.uk/profile/Samuel-CHLam) by emailing to [wcr.externalaffairs@univ.ox.ac.uk](mailto:wcr.externalaffairs@univ.ox.ac.uk).
 
 ## Contributor
 This development of the website is led by [Samuel Lam](https://samuel-chlam.github.io/newsite/), the current interim WCR External Affairs Officer, with the help of the WCR committee.
